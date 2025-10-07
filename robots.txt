@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://smartgrades.netlify.app//sitemap.xml
+Sitemap: https://smartgrades.netlify.app/sitemap.xml
