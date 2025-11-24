@@ -202,7 +202,7 @@ class StudentGradesApp {
         const student = this.studentsData[index];
         
         student.continuous = (student.notebook + student.homework + student.behavior + student.participation) / 4;
-        student.average = (student.continuous + student.test + (student.exam * 3)) / 5;
+        student.average = (student.continuous + student.test + (student.exam * 2)) / 4;
         student.comment = this.getGradeComment(student.average);
     }
 
